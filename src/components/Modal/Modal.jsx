@@ -17,11 +17,17 @@ export class Modal extends Component {
     }
   };
 
+  onOverlayClose = event => {
+    if (event.target === event.currentTarget) {
+      this.props.onModalClose();
+    }
+  };
+
   render() {
     const url = this.props.large;
     const alt = this.props.alt;
     return (
-      <Overlay>
+      <Overlay onClick={this.onOverlayClose}>
         <Container>
           <Image src={url} alt={alt} />
         </Container>
