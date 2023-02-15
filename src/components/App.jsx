@@ -45,12 +45,6 @@ export class App extends Component {
 
     if (search !== prevState.search) {
       try {
-        this.setState({
-          load: true,
-          images: [],
-          page: 1,
-          total: 0,
-        });
         const images = await getPhotos(search, page);
         const { hits, total } = images;
         if (hits.length === 0) {
@@ -75,7 +69,7 @@ export class App extends Component {
     if (this.state.search === value) {
       return;
     }
-    this.setState({ search: value, page: 1 });
+    this.setState({ search: value, load: true, images: [], page: 1, total: 0 });
   };
 
   onButtonClick = () => {
