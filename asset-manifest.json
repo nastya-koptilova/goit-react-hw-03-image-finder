@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/css/main.7acaea2f.css",
-    "main.js": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/js/main.07d3183d.js",
+    "main.css": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/css/main.ec7e11d0.css",
+    "main.js": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/js/main.286f83bd.js",
     "index.html": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/index.html",
-    "main.7acaea2f.css.map": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/js/main.07d3183d.js.map"
+    "main.ec7e11d0.css.map": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/css/main.ec7e11d0.css.map",
+    "main.286f83bd.js.map": "/nastya-koptilova.github.io/goit-react-hw-03-image-finder/static/js/main.286f83bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.ec7e11d0.css",
+    "static/js/main.286f83bd.js"
   ]
 }
